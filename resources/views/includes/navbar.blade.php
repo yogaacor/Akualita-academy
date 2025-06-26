@@ -1,7 +1,7 @@
-<nav class="flex items-center justify-between px-6 py-4 bg-white shadow-sm">
+<nav class="flex items-center justify-between px-20 py-4 bg-white shadow-sm">
   <!-- Kiri: Logo -->
   <div class="flex items-center space-x-3">
-    <h1 class="text-xl font-semibold text-[#00a9c7]">Akualita Academy</h1>
+    <h1 class="text-xl font-semibold text-[#00a9c7] leading-none">Akualita Academy</h1>
   </div>
 
   <!-- Tengah: Menu -->
