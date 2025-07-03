@@ -1,6 +1,7 @@
 <nav class="flex items-center justify-between px-20 py-4 bg-white shadow-sm">
   <!-- Kiri: Logo -->
   <div class="flex items-center space-x-3">
+    <img src="{{ asset('storage/Akualita Academy Sampingan putih.png') }}" alt="Akualita Academy Logo" class="h-10 w-auto">
     <h1 class="text-xl font-semibold text-[#00a9c7] leading-none">Akualita Academy</h1>
   </div>
 
