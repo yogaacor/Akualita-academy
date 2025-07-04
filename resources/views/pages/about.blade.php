@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-14 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg-utama-6.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white pt-14 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg-utama-9-2.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     
     <!-- Kiri: Teks -->
@@ -37,8 +37,8 @@
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="bg-[#00ACF8] py-16 px-6 md:px-16">
-  <h2 class="text-3xl md:text-5xl font-bold text-center mb-12 text-white">Program Pilihan Kami</h2>
+<section class="bg-[#00ACF8] py-16">
+  <h2 class="text-3xl md:text-5xl font-bold text-center mb-20 text-white">Program Pilihan Kami</h2>
   
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
     
