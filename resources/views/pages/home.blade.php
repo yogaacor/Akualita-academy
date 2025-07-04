@@ -26,7 +26,7 @@
 
     <!-- Kanan: Gambar -->
     <div class="relative w-full h-full flex justify-end items-start">
-      <img src="{{ asset('storage/Asep/Foto utama.png') }}"
+      <img src="{{ asset('storage/main/Foto utama.png') }}"
            alt="Akualita Academy Foto"
            class="w-full h-auto md:h-[600px] object-cover object-right rounded-xl" />
     </div>

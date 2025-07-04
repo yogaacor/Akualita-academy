@@ -26,7 +26,7 @@
 
     <!-- Kanan: Gambar -->
     <div class="relative w-full h-full flex justify-end items-start">
-      <img src="{{ asset('storage/Asep/Foto utama.png') }}"
+      <img src="{{ asset('storage/main/Foto utama.png') }}"
            alt="Akualita Academy Foto"
            class="w-full h-auto md:h-[600px] object-cover object-right rounded-xl" />
     </div>
@@ -37,89 +37,90 @@
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="bg-[#00ACF8] py-16">
-  <h2 class="text-3xl md:text-5xl font-bold text-center mb-20 text-white">Program Pilihan Kami</h2>
-  
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    
-    <!-- Card 1 -->
-    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center mb-4">
-          <div class=" p-2 rounded-md">
-            <img src="" alt="learning" />
+<section class="bg-[#00ACF8] pt-0 pb-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl md:text-5xl font-bold text-center mb-20 text-white mt-0 pt-0">Program Pilihan Kami</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center mb-2">
+            <div class=" p-2 rounded-md">
+              <img src="{{ asset('storage/main/Pelatihan sertifikasi.jpeg') }}" alt="learning" />
+            </div>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-2 pt-0">Pelatihan Sertifikasi</h3>
+          <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
+            💬 Lorem Ipsum dolor sit amet
+          </span>
+          <ul class="space-y-2 text-sm text-gray-700">
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+          </ul>
+        </div>
+        <div class="mt-6">
+          <div class="flex gap-2">
+            <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
+            <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
           </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Lorem Ipsum dolor sit amet</h3>
-        <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
-          💬 Lorem Ipsum dolor sit amet
-        </span>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-        </ul>
       </div>
-      <div class="mt-6">
-        <div class="flex gap-2">
-          <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
-          <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
-        </div>
-      </div>
-    </div>
 
-    <!-- Card 2 -->
-    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center mb-4">
-          <div class=" p-2 rounded-md">
-            <img src="" alt="learning" />
+      <!-- Card 2 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center mb-4">
+            <div class=" p-2 rounded-md">
+              <img src="" alt="learning" />
+            </div>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Pelatihan Non-Sertifikasi</h3>
+          <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
+            💬 Lorem Ipsum dolor sit amet
+          </span>
+          <ul class="space-y-2 text-sm text-gray-700">
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+          </ul>
+        </div>
+        <div class="mt-6">
+          <div class="flex gap-2">
+            <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
+            <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
           </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Lorem Ipsum dolor sit amet</h3>
-        <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
-          💬 Lorem Ipsum dolor sit amet
-        </span>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-        </ul>
       </div>
-      <div class="mt-6">
-        <div class="flex gap-2">
-          <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
-          <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
-        </div>
-      </div>
-    </div>
 
-     <!-- Card 3 -->
-    <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
-      <div>
-        <div class="flex items-center mb-4">
-          <div class=" p-2 rounded-md">
-            <img src="" alt="learning" />
+      <!-- Card 3 -->
+      <div class="bg-white shadow-lg rounded-xl p-6 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center mb-4">
+            <div class=" p-2 rounded-md">
+              <img src="" alt="learning" />
+            </div>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">Bootcamp</h3>
+          <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
+            💬 Lorem Ipsum dolor sit amet
+          </span>
+          <ul class="space-y-2 text-sm text-gray-700">
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+            <li>✓ Lorem Ipsum dolor sit amet</li>
+          </ul>
+        </div>
+        <div class="mt-6">
+          <div class="flex gap-2">
+            <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
+            <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
           </div>
         </div>
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Lorem Ipsum dolor sit amet</h3>
-        <span class="inline-block bg-[#00ACF8] text-white text-sm font-medium px-2 py-1 rounded mb-4">
-          💬 Lorem Ipsum dolor sit amet
-        </span>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-          <li>✓ Lorem Ipsum dolor sit amet</li>
-        </ul>
       </div>
-      <div class="mt-6">
-        <div class="flex gap-2">
-          <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg font-semibold">Full Program</button>
-          <button class="bg-white border text-[#00ACF8] px-4 py-2 rounded-lg font-semibold">Konsultasi</button>
-        </div>
-      </div>
-    </div>
 
+    </div>
   </div>
 </section>
 
