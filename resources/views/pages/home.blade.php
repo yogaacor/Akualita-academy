@@ -122,7 +122,7 @@
     <!-- Formulir Pertanyaan -->
     <div>
       <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug text-[#1F2756]">
-        <span class="text-[#00ACF8]">Sampaikan</span> pertanyaan seputar produk Kami melalui Email
+        Sampaikan pertanyaan seputar produk Kami melalui Email
       </h2>
 
       <form action="#" method="POST" class="space-y-5">
@@ -158,34 +158,21 @@
           type="submit" 
           class="w-full bg-[#00ACF8] text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#0095d9] transition duration-200"
         >
-          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M2.94 2.94a.75.75 0 011.06 0L10 8.94l5.99-6a.75.75 0 111.06 1.06l-6 5.99 6 6a.75.75 0 11-1.06 1.06l-6-6-6 6A.75.75 0 112.94 14.94l6-6-6-6a.75.75 0 010-1.06z"/>
-          </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+        </svg>
+
           Kirim Email
         </button>
-
-        <div class="flex items-center my-6">
-          <div class="flex-grow border-t border-gray-300"></div>
-          <span class="mx-4 text-gray-500 text-sm">atau</span>
-          <div class="flex-grow border-t border-gray-300"></div>
-        </div>
-
-        <a 
-          href="https://wa.me/6281234567890" 
-          target="_blank" 
-          class="w-full inline-block text-center border border-[#00ACF8] text-[#00ACF8] px-6 py-3 rounded-xl font-semibold hover:bg-[#e6f7ff] transition duration-200"
-        >
-          💬 Hubungi via Whatsapp
-        </a>
       </form>
     </div>
 
     <!-- Maps dan Alamat -->
-    <div class="space-y-6">
+    <div class="space-y-4">
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.470496169294!2d110.4722692!3d-6.9964396999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ce1b39ada93%3A0x38813ea0bc529c6a!2sPT%20Adhikriya%20Kualita%20Utama%20(AKUALITA)!5e0!3m2!1sid!2sid!4v1720500000000!5m2!1sid!2sid" 
         width="100%" 
-        height="280" 
+        height="400" 
         style="border:0; border-radius: 0.75rem;" 
         allowfullscreen="" 
         loading="lazy" 
@@ -193,12 +180,12 @@
       ></iframe>
 
       <div>
-        <h3 class="text-xl font-semibold text-[#1F2756] mb-2">Kantor Kami</h3>
-        <p class="text-sm text-gray-700 leading-relaxed">
+        <h3 class="text-xl font-bold text-[#1F2756] mb-2">Kantor Kami</h3>
+        <p class="text-base text-gray-700 leading-relaxed">
           PT. Adhikriya Kualita Utama (AKUALITA)<br>
-          Jl. Kemang Timur No.1 RT.14/RW.8, Pejaten Barat,<br>
-          Pasar Minggu, Kota Jakarta Selatan,<br>
-          Daerah Khusus Ibukota Jakarta 12510
+          Jl. Kyai Abdul Manan No.25, Pedurungan Tengah,
+          Kec. Pedurungan, Kota Semarang,
+          Jawa Tengah 50192
         </p>
       </div>
     </div>
