@@ -10,16 +10,16 @@
       <span class=" text-base">Program</span>
     </li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Kenapa AKUALITA ACADEMY?</span>
+      <span class=" text-base">Tentang Akualita Academy</span>
     </li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Industry</span>
+      <span class=" text-base">Industri</span>
     </li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Community</span>
+      <span class=" text-base">Komunitas</span>
     </li>
     <button class="border-2 border-[#00ACF8] text-[#00ACF8] text-base px-4 py-1.5 rounded-md hover:bg-[#00ACF8] hover:shadow-md hover:text-white transition duration-300">
-      Free Course
+      Kursus Gratis
     </button>
   </ul>
 </nav>
