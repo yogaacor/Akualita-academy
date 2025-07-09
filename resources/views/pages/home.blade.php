@@ -1,5 +1,7 @@
 @extends('layout.app')
-@section('title', 'Akualita Academy - About')
+
+@section('title', 'Akualita Academy - Beranda')
+
 @section('content')
 
 <!-- Bagian 1 halaman utama -->

@@ -5,19 +5,58 @@
   </div>
 
   <!-- Tengah: Menu -->
-  <ul class="hidden md:flex items-center space-x-12 text-sm text-gray-900 mr-20">
+  <ul class="hidden md:flex items-center space-x-12 text-sm text-gray-900 mr-20 relative">
+    
+  <!-- Program dengan Megamenu di Tengah -->
+  <li class="group relative cursor-pointer">
+    <span class="text-base hover:text-[#00ACF8] transition duration-300">Program</span>
+
+    <!-- Megamenu -->
+    <div class="absolute left-1/2 top-full hidden group-hover:block -translate-x-1/2 w-[1000px] bg-white shadow-xl border-t border-gray-200 z-50">
+      <div class="px-12 py-10 grid grid-cols-2 gap-10 text-gray-700 text-base">
+
+        <!-- Pelatihan Sertifikasi -->
+        <div class="flex items-start space-x-3">
+          <div>
+            <h4 class="font-semibold text-gray-900 mb-1">Pelatihan Sertifikasi</h4>
+            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        <!-- Pelatihan Non-Sertifikasi -->
+        <div class="flex items-start space-x-3">
+          <div>
+            <div class="flex items-center space-x-2 mb-1">
+              <h4 class="font-semibold text-gray-900">Pelatihan Non-Sertifikasi</h4>
+            </div>
+            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        <!-- Bootcamp -->
+        <div class="flex items-start space-x-3">
+          <div>
+            <h4 class="font-semibold text-gray-900 mb-1">Bootcamp</h4>
+            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+
+
+
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Program</span>
+      <span class="text-base">Tentang Akualita Academy</span>
     </li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Tentang Akualita Academy</span>
+      <span class="text-base">Industri</span>
     </li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Industri</span>
+      <span class="text-base">Komunitas</span>
     </li>
-    <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300">
-      <span class=" text-base">Komunitas</span>
-    </li>
+
+    <!-- Tombol Kursus Gratis -->
     <button class="border-2 border-[#00ACF8] text-[#00ACF8] text-base px-4 py-1.5 rounded-md hover:bg-[#00ACF8] hover:shadow-md hover:text-white transition duration-300">
       Kursus Gratis
     </button>
