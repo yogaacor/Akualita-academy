@@ -5,11 +5,11 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-12 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg--10.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white pt-16 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg122.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     
     <!-- Kiri: Teks -->
-    <div class="space-y-4">
+    <div class="space-y-4 ml-4">
       <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
@@ -40,82 +40,145 @@
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="pt-0 pb-16 bg-gradient-to-b from-white to-[#DFF3FD]">
-  <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-[#1F2756]">
-      Pilih program terbaik untuk memulai <br> perjalanan belajarmu
+<section class="pt-0 pb-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-[#1F2756] leading-snug">
+      Pilih program terbaik untuk memulai perjalanan <br>belajarmu di <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
     </h2>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <br>
+    <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] ">
       
-      <!-- CARD COMPONENT START -->
-      @foreach ([
-        ['title' => 'Pelatihan Sertifikasi', 'img' => 'Pelatihan sertifikasi.jpeg'],
-        ['title' => 'Pelatihan Non-Sertifikasi', 'img' => 'Pelatihan sertifikasi.jpeg'],
-        ['title' => 'Bootcamp', 'img' => 'Pelatihan sertifikasi.jpeg'],
-      ] as $card)
-      <div class="bg-white rounded-xl shadow-md border overflow-hidden flex flex-col">
-        <img src="{{ asset('storage/main/' . $card['img']) }}" alt="{{ $card['title'] }}" class="w-full h-[250px] object-cover opacity-90 border-b">
-
-        <div class="p-4 flex-1 flex flex-col">
-          <h3 class="text-xl font-bold text-[#1F2756] mb-3">{{ $card['title'] }}</h3>
-          <p class="text-sm text-gray-600 mb-6 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <div class="mt-auto flex gap-2">
-            <button class="bg-[#00ACF8] text-white px-4 py-2 rounded-lg text-sm font-semibold">Full Program</button>
-            <button class="bg-white border border-[#00ACF8] text-[#00ACF8] px-4 py-2 rounded-lg text-sm font-semibold">Konsultasi</button>
-          </div>
+      <!-- Fitur 1 -->
+      <div class="border border-gray-300 rounded-xl p-6 transition duration-300 
+        hover:border-t-white hover:border-l-white hover:border-r-white 
+        hover:border-b-4 hover:border-b-[#00ACF8] 
+        hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 
+        flex flex-col items-center text-center">
+        
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+          <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
         </div>
+        <h3 class="font-bold text-2xl mb-2">Pelatihan Sertifikasi</h3>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
       </div>
-      @endforeach
-      <!-- CARD COMPONENT END -->
+
+      <!-- Fitur 2 -->
+      <div class="border border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+          <img src="{{ asset('storage/svg/noncerti12.svg') }}" alt="Icon Buku" class="w-12 h-12">
+        </div>
+        <h3 class="font-bold text-2xl mb-2">Pelatihan Non-Sertifikasi</h3>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+
+      <!-- Fitur 3 -->
+      <div class="border border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+          <img src="{{ asset('storage/svg/boot12.svg') }}" alt="Icon Buku" class="w-8 h-8">
+        </div>
+        <h3 class="font-bold text-2xl mb-2">Bootcamp</h3>
+        <p class="text-gray-600 text-lg leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+
     </div>
   </div>
 </section>
 
 
 <!-- Bagian 3 halaman utama - manfaat -->
-<section class="bg-white py-20 px-6 md:px-16">
-  <div class="max-w-7xl mx-auto text-[#1F2756]">
-    <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">
-      Manfaat Mendaftar ke Program Akualita Academy
-    </h2>
-    <p class="text-center text-lg text-[#1F2756]/80 mb-16 max-w-2xl mx-auto">
-      Bersama Akualita Academy, siapa pun bisa meningkatkan kompetensi, mendapatkan sertifikasi resmi, dan lebih siap menghadapi dunia kerja!
+<section class="bg-[#F8FCFE] py-16 px-6 md:px-20">
+  <div class="flex items-center justify-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">Manfaat Mendaftar Akualita Academy</h2>
+  </div>
+  <div class="flex items-center justify-center mb-6">
+    <p class="text-lg md:text-xl text-[#5E6574] mb-10">
+      Bersama Akualita Academy, tingkatkan kompetensi, raih sertifikasi, dan siap hadapi dunia kerja!
     </p>
+  </div>
 
-    <!-- Grid Benefit Items -->
-    <div class="grid md:grid-cols-3 gap-10">
-      <!-- Reusable Card Component -->
-      @foreach ([
-        ['title' => 'Akses Mudah dan Terjangkau untuk Individu', 'desc' => 'Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.'],
-        ['title' => 'Sertifikasi Resmi dan Diakui Industri', 'desc' => 'Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.'],
-        ['title' => 'Siap Bersaing di Dunia Kerja', 'desc' => 'Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.'],
-        ['title' => 'Materi Praktis dan Relevan', 'desc' => 'Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.'],
-        ['title' => 'Pilihan Belajar Online dan Offline', 'desc' => 'Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.'],
-        ['title' => 'Belajar dari Praktisi Berpengalaman', 'desc' => 'Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.'],
-      ] as $index => $item)
-      <div class="group bg-white p-8 border-2 border-[#00ACF8] rounded-2xl shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 hover:border-[#007EC3] duration-300">
-        <div class="flex items-start space-x-4 mb-4">
-          <!-- Number Badge -->
-          <div class="w-12 h-12 bg-gradient-to-tr from-[#00ACF8] to-[#007EC3] text-white text-lg font-bold rounded-full flex items-center justify-center shadow-md">
-            {{ $index + 1 }}
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <!-- Kiri: Teks dan Daftar Manfaat -->
+    <div>
+      <div class="space-y-4">
+        <!-- Daftar Item -->
+        <!-- Ganti semua ikon dengan ikon centang -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl bg-[#00ACF8]">
+          <div class="text-white text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
           </div>
-          <!-- Title -->
-          <h3 class="text-lg font-semibold leading-snug group-hover:text-[#007EC3] transition-colors duration-300">
-            {{ $item['title'] }}
-          </h3>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-white">Akses Mudah dan Terjangkau untuk Individu</h3>
+            <p class="text-white leading-relaxed">Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.</p>
+          </div>
         </div>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          {{ $item['desc'] }}
-        </p>
+
+        <!-- Duplikasikan dan ganti teks lainnya, ikon tetap centang -->
+        <div class="flex items-start gap-4">
+          <div class="text-[#00ACF8] text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Sertifikasi Resmi dan Diakui Industri</h3>
+            <p class="text-[#5E6574] leading-relaxed">Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4">
+          <div class="text-[#00ACF8] text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Siap Bersaing di Dunia Kerja</h3>
+            <p class="text-[#5E6574] leading-relaxed">Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4">
+          <div class="text-[#00ACF8] text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Materi Praktis dan Relevan</h3>
+            <p class="text-[#5E6574] leading-relaxed">Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4">
+          <div class="text-[#00ACF8] text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Pilihan Belajar Online dan Offline</h3>
+            <p class="text-[#5E6574] leading-relaxed">Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4">
+          <div class="text-[#00ACF8] text-3xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Belajar dari Praktisi Berpengalaman</h3>
+            <p class="text-[#5E6574] leading-relaxed">Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.</p>
+          </div>
+        </div>
       </div>
-      @endforeach
+    </div>
+
+    <!-- Kanan: Gambar -->
+    <div class="flex justify-center">
+      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full max-w-xl">
     </div>
   </div>
 </section>
+
+
 
 <!-- Bagian 4 halaman utama - kontak -->
 <section class="bg-[#DFF3FD] py-20 px-6 md:px-16">
