@@ -5,11 +5,11 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-16 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg122.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white pt-16 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgrr.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     
     <!-- Kiri: Teks -->
-    <div class="space-y-4 ml-4">
+    <div class="space-y-4 ml-4 mt-6">
       <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
@@ -20,10 +20,9 @@
       </p>
       <div class="mt-4">
         <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
-        <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
-        Coba Konsultasi
-      </a>
-
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
+          Coba Konsultasi
+        </a>
       </div>
     </div>
 
@@ -40,21 +39,15 @@
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="pt-0 pb-20 bg-white">
+<section class="pt-6 pb-20 bg-white">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-[#1F2756] leading-snug">
-      Pilih program terbaik untuk memulai perjalanan <br>belajarmu di <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] leading-snug">
+      Pilih program terbaik untuk memulai perjalanan <br>belajarmu di Akualita Academy
     </h2>
     <br>
-    <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] ">
-      
+    <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] bg-white ">
       <!-- Fitur 1 -->
-      <div class="border border-gray-300 rounded-xl p-6 transition duration-300 
-        hover:border-t-white hover:border-l-white hover:border-r-white 
-        hover:border-b-4 hover:border-b-[#00ACF8] 
-        hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 
-        flex flex-col items-center text-center">
-        
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
         </div>
@@ -62,10 +55,18 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
+      </div>
       </div>
 
       <!-- Fitur 2 -->
-      <div class="border border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/noncerti12.svg') }}" alt="Icon Buku" class="w-12 h-12">
         </div>
@@ -73,10 +74,18 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
+      </div>
       </div>
 
       <!-- Fitur 3 -->
-      <div class="border border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/boot12.svg') }}" alt="Icon Buku" class="w-8 h-8">
         </div>
@@ -84,6 +93,14 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
+      </div>
       </div>
 
     </div>
@@ -93,9 +110,13 @@
 
 <!-- Bagian 3 halaman utama - manfaat -->
 <section class="bg-[#F8FCFE] py-16 px-6 md:px-20">
-  <div class="flex items-center justify-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">Manfaat Mendaftar Akualita Academy</h2>
+  <div class="flex items-center justify-center px-4">
+    <h2 class="text-center max-w-4xl text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">
+      Berbagai Manfaat yang Akan Kamu Dapatkan Saat Mendaftar di 
+      <span class="bg-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
+    </h2>
   </div>
+
   <div class="flex items-center justify-center mb-6">
     <p class="text-lg md:text-xl text-[#5E6574] mb-10">
       Bersama Akualita Academy, tingkatkan kompetensi, raih sertifikasi, dan siap hadapi dunia kerja!
@@ -107,7 +128,7 @@
     <div id="card-container" class="space-y-4">
 
         <!-- Item 1 -->
-        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:border-white hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
@@ -200,7 +221,7 @@
 
 
 <!-- Bagian 4 halaman utama - kontak -->
-<section class="bg-[#DFF3FD] py-20 px-6 md:px-16">
+<section class="bg-white py-20 px-6 md:px-16">
   <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
 
     <!-- Formulir Pertanyaan -->
