@@ -102,81 +102,100 @@
     </p>
   </div>
 
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-    <!-- Kiri: Teks dan Daftar Manfaat -->
-    <div>
-      <div class="space-y-4">
-        <!-- Daftar Item -->
-        <!-- Ganti semua ikon dengan ikon centang -->
-        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl bg-[#00ACF8]">
-          <div class="text-white text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+  <div class="max-w-9xl mx-auto grid md:grid-cols-[0.5fr_0.8fr] gap-10 items-center">
+    <!-- Kiri -->
+    <div id="card-container" class="space-y-4">
+
+        <!-- Item 1 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-white">Akses Mudah dan Terjangkau untuk Individu</h3>
-            <p class="text-white leading-relaxed">Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Akses Mudah dan Terjangkau untuk Individu</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.</p>
           </div>
         </div>
 
-        <!-- Duplikasikan dan ganti teks lainnya, ikon tetap centang -->
-        <div class="flex items-start gap-4">
-          <div class="text-[#00ACF8] text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+        <!-- Item 2 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Sertifikasi Resmi dan Diakui Industri</h3>
-            <p class="text-[#5E6574] leading-relaxed">Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Sertifikasi Resmi dan Diakui Industri</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.</p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="text-[#00ACF8] text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+        <!-- Item 3 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Siap Bersaing di Dunia Kerja</h3>
-            <p class="text-[#5E6574] leading-relaxed">Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Siap Bersaing di Dunia Kerja</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.</p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="text-[#00ACF8] text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+        <!-- Item 4 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Materi Praktis dan Relevan</h3>
-            <p class="text-[#5E6574] leading-relaxed">Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Materi Praktis dan Relevan</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.</p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="text-[#00ACF8] text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+        <!-- Item 5 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Pilihan Belajar Online dan Offline</h3>
-            <p class="text-[#5E6574] leading-relaxed">Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Pilihan Belajar Online dan Offline</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.</p>
           </div>
         </div>
 
-        <div class="flex items-start gap-4">
-          <div class="text-[#00ACF8] text-3xl">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/></svg>
+        <!-- Item 6 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
           <div>
-            <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Belajar dari Praktisi Berpengalaman</h3>
-            <p class="text-[#5E6574] leading-relaxed">Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.</p>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Belajar dari Praktisi Berpengalaman</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.</p>
           </div>
         </div>
-      </div>
+
     </div>
 
-    <!-- Kanan: Gambar -->
-    <div class="flex justify-center">
-      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full max-w-xl">
+    <!-- Gambar -->
+    <div class="flex justify-start">
+      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%]">
     </div>
+
+
   </div>
 </section>
+
+
 
 
 
