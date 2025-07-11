@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-16 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgrr.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white pt-10 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgf.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     
     <!-- Kiri: Teks -->
@@ -27,10 +27,10 @@
     </div>
 
     <!-- Kanan: Gambar -->
-    <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[-4rem]">
+    <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[4rem]">
       <img src="{{ asset('storage/Bg/bg-utama1.png') }}"
            alt="Akualita Academy Foto"
-           class="w-full h-auto md:h-[600px] object-cover object-right rounded-md" />
+           class="w-[700px] h-[350px] object-cover object-right rounded-md" />
     </div>
 
   </div>

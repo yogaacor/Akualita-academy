@@ -5,33 +5,33 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-12 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bg--10.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white pt-10 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgrr.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     
     <!-- Kiri: Teks -->
-    <div class="space-y-4 ml-4">
-      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
+    <div class="space-y-4 ml-4 mt-4">
+      <h1 class="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
         <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
-      </h2>
+      </h1>
       <p class="text-base md:text-lg lg:text-lg text-gray-800 max-w-xl">
         Kami bantu kamu tingkatkan keterampilan, raih sertifikasi resmi, dan siap hadapi dunia kerja dengan lebih percaya diri!
       </p>
       <div class="mt-4">
         <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
-        <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
-        Coba Konsultasi
-      </a>
-
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
+          Coba Konsultasi
+        </a>
       </div>
     </div>
 
     <!-- Kanan: Gambar -->
-    <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[-4rem]">
+    <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[10rem]">
       <img src="{{ asset('storage/Bg/bg-utama1.png') }}"
-           alt="Akualita Academy Foto"
-           class="w-full h-auto md:h-[600px] object-cover object-right rounded-md" />
+          alt="Akualita Academy Foto"
+          class="w-full h-[350px] object-cover object-right rounded-md" />
+
     </div>
 
   </div>
@@ -40,16 +40,15 @@
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="pt-0 pb-20 bg-white">
+<section class="pt-6 pb-20 bg-white">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-[#1F2756] leading-snug">
-      Pilih program terbaik untuk memulai <br> perjalanan belajarmu
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] leading-snug">
+      Pilih program terbaik untuk memulai perjalanan <br>belajarmu di Akualita Academy
     </h2>
-
-    <div class="grid md:grid-cols-3 gap-10 text-[#1F2756]">
-      
+    <br>
+    <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] bg-white ">
       <!-- Fitur 1 -->
-      <div class="hover:bg-[#E6F8FE] p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
         </div>
@@ -57,10 +56,18 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
+      </div>
       </div>
 
       <!-- Fitur 2 -->
-      <div class=" p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/noncerti12.svg') }}" alt="Icon Buku" class="w-12 h-12">
         </div>
@@ -68,10 +75,18 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
+      </div>
       </div>
 
       <!-- Fitur 3 -->
-      <div class=" p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
+      <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
         <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
           <img src="{{ asset('storage/svg/boot12.svg') }}" alt="Icon Buku" class="w-8 h-8">
         </div>
@@ -79,114 +94,134 @@
         <p class="text-gray-600 text-lg leading-relaxed">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
+        <div class="mt-4">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
+            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+          </svg>
+          Selengkapnya
+        </a>
       </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="bg-[#F8FCFE] py-16 px-6 md:px-20">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-    
-    <!-- Kiri: Teks dan Icon -->
-    <div>
-      <h2 class="text-3xl md:text-4xl font-bold text-[#1F2756] mb-4">Bayangkan!</h2>
-      <p class="text-lg md:text-xl text-[#5E6574] mb-10">
-        Kamu akan dapatkan semua keuntungan ini setelah mengikuti bootcamp selama 4 bulan ke depan!
-      </p>
-
-      <!-- Item 1 -->
-      <div class="flex items-start gap-4 mb-6">
-        <div class="text-[#00ACF8] text-3xl">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-        </div>
-        <div>
-          <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Mentor dan Networking yang Berkelas</h3>
-          <p class="text-[#5E6574] leading-relaxed">
-            Kamu akan dipandu langsung oleh para mentor-mentor expert dari Top Tech Companies yang siap membimbingmu secara intensif.
-          </p>
-        </div>
       </div>
-
-      <!-- Item 2 -->
-      <div class="flex items-start gap-4 mb-6">
-        <div class="text-[#00ACF8] text-3xl">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M10.9 2.1a1 1 0 0 1 2.2 0l.3 2.4h1.7a1 1 0 0 1 0 2h-1.6l.3 2.4h1.3a1 1 0 0 1 0 2h-1.2l.3 2.4h1.9a1 1 0 0 1 0 2h-2l.3 2.4a1 1 0 1 1-2 .2l-.3-2.6h-1.7l-.3 2.6a1 1 0 0 1-2-.2l.3-2.4h-2a1 1 0 1 1 0-2h1.9l.3-2.4h-1.2a1 1 0 1 1 0-2h1.3l.3-2.4H8.2a1 1 0 1 1 0-2h1.7l.3-2.4z"/></svg>
-        </div>
-        <div>
-          <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Persiapan Karier Lebih Mantap!</h3>
-          <p class="text-[#5E6574] leading-relaxed">
-            CV, Portofolio, dan persiapan User Interview akan dibantu langsung oleh tim talent support dari Dibimbing.id.
-          </p>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="flex items-start gap-4">
-        <div class="text-[#00ACF8] text-3xl">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0-2a7 7 0 1 0 0 14A7 7 0 0 0 12 5zm0 2.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9z"/></svg>
-        </div>
-        <div>
-          <h3 class="font-bold text-xl mb-1 text-[#1F2756]">Gaji hingga Dua Digit!</h3>
-          <p class="text-[#5E6574] leading-relaxed">
-            Dapatkan gaji yang sangat kompetitif dari banyaknya kesempatan berkarier di industri digital, baik dari perusahaan nasional maupun internasional.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Kanan: Gambar besar -->
-    <div class="flex justify-center">
-      <img src="{{ asset('storage/images/bootcamp-benefits.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full max-w-xl">
     </div>
   </div>
 </section>
 
 
 <!-- Bagian 3 halaman utama - manfaat -->
-<section class="bg-white py-20 px-6 md:px-16">
-  <div class="max-w-7xl mx-auto text-[#1F2756]">
-    <!-- Heading -->
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">
-      Manfaat Mendaftar ke Program Akualita Academy
+<section class="bg-[#F8FCFE] py-16 px-6 md:px-20">
+  <div class="flex items-center justify-center px-4">
+    <h2 class="text-center max-w-4xl text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">
+      Berbagai Manfaat yang Akan Kamu Dapatkan Saat Mendaftar di 
+      <span class="bg-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
     </h2>
-    <p class="text-center text-lg text-[#1F2756]/80 mb-16 max-w-2xl mx-auto">
-      Bersama Akualita Academy, siapa pun bisa meningkatkan kompetensi, mendapatkan sertifikasi resmi, dan lebih siap menghadapi dunia kerja!
-    </p>
+  </div>
 
-    <!-- Grid Benefit Items -->
-    <div class="grid md:grid-cols-3 gap-10">
-      <!-- Reusable Card Component -->
-      @foreach ([
-        ['title' => 'Akses Mudah dan Terjangkau untuk Individu', 'desc' => 'Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.'],
-        ['title' => 'Sertifikasi Resmi dan Diakui Industri', 'desc' => 'Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.'],
-        ['title' => 'Siap Bersaing di Dunia Kerja', 'desc' => 'Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.'],
-        ['title' => 'Materi Praktis dan Relevan', 'desc' => 'Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.'],
-        ['title' => 'Pilihan Belajar Online dan Offline', 'desc' => 'Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.'],
-        ['title' => 'Belajar dari Praktisi Berpengalaman', 'desc' => 'Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.'],
-      ] as $index => $item)
-      <div class="group bg-white p-8 border-2 border-[#00ACF8] rounded-2xl shadow-sm hover:shadow-lg transition-all hover:-translate-y-1 hover:border-[#007EC3] duration-300">
-        <div class="flex items-start space-x-4 mb-4">
-          <!-- Number Badge -->
-          <div class="w-12 h-12 bg-gradient-to-tr from-[#00ACF8] to-[#007EC3] text-white text-lg font-bold rounded-full flex items-center justify-center shadow-md">
-            {{ $index + 1 }}
+  <div class="flex items-center justify-center mb-6">
+    <p class="text-lg md:text-xl text-[#5E6574] mb-10">
+      Bersama Akualita Academy, tingkatkan kompetensi, raih sertifikasi, dan siap hadapi dunia kerja!
+    </p>
+  </div>
+
+  <div class="max-w-9xl mx-auto grid md:grid-cols-[0.5fr_0.8fr] gap-10 items-center">
+    <!-- Kiri -->
+    <div id="card-container" class="space-y-4">
+
+        <!-- Item 1 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:border-white hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
           </div>
-          <!-- Title -->
-          <h3 class="text-lg font-semibold leading-snug group-hover:text-[#007EC3] transition-colors duration-300">
-            {{ $item['title'] }}
-          </h3>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Akses Mudah dan Terjangkau untuk Individu</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program pelatihan dan sertifikasi dirancang khusus untuk perorangan, tanpa harus melalui jalur perusahaan.</p>
+          </div>
         </div>
-        <p class="text-gray-600 text-sm leading-relaxed">
-          {{ $item['desc'] }}
-        </p>
-      </div>
-      @endforeach
+
+        <!-- Item 2 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Sertifikasi Resmi dan Diakui Industri</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Peserta akan mendapatkan sertifikasi BNSP dan Kemnaker yang diakui secara nasional serta dibutuhkan di berbagai sektor industri.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Siap Bersaing di Dunia Kerja</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Meningkatkan kompetensi dan kepercayaan diri untuk menghadapi persaingan di dunia kerja, khususnya bagi mahasiswa dan lulusan baru.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Materi Praktis dan Relevan</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program fokus pada kebutuhan industri dengan materi yang aplikatif dan sesuai standar.</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Pilihan Belajar Online dan Offline</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Fleksibel sesuai kebutuhan peserta, tersedia kelas tatap muka dan kelas online interaktif.</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
+          <div class="text-[#00ACF8] text-3xl group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 10-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-xl mb-1 text-[#1F2756] group-hover:text-white">Belajar dari Praktisi Berpengalaman</h3>
+            <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.</p>
+          </div>
+        </div>
+
     </div>
+
+    <!-- Gambar -->
+    <div class="flex justify-start">
+      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%]">
+    </div>
+
+
   </div>
 </section>
 
+
+
+
+
 <!-- Bagian 4 halaman utama - kontak -->
-<section class="bg-[#DFF3FD] py-20 px-6 md:px-16">
+<section class="bg-white py-20 px-6 md:px-16">
   <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
 
     <!-- Formulir Pertanyaan -->
