@@ -56,7 +56,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <div class="mt-4">
-        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
@@ -75,7 +75,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <div class="mt-4">
-        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
@@ -94,7 +94,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <div class="mt-4">
-        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
