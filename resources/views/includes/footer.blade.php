@@ -74,6 +74,6 @@
   </div>
 </footer>
 
-<footer class="bg-[#222222] text-gray-400 text-center py-4 border-t border-gray-700">
+<footer class="bg-[#222222] text-gray-400 text-center py-3 border-t border-gray-700">
     <p class="text-xs md:text-sm font-semibold">Copyright &copy; 2025 Akindotama. All rights reserved</p>
 </footer>
