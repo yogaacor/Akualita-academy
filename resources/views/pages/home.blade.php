@@ -11,7 +11,7 @@
       <h2 class="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
-        <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
+        <span class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
       </h2>
       <p class="text-lg md:text-xl text-gray-800 max-w-xl">
         Kami bantu kamu tingkatkan keterampilan, raih sertifikasi resmi, dan siap hadapi dunia kerja dengan lebih percaya diri!
@@ -103,7 +103,7 @@
   <div class="flex items-center justify-center px-4">
     <h2 class="text-center max-w-4xl text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">
       Berbagai Manfaat yang Akan Kamu Dapatkan Saat Mendaftar di 
-      <span class="bg-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
+      <span class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
     </h2>
   </div>
 
@@ -209,46 +209,48 @@
       <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug text-[#1F2756]">
         Hubungi kami melalui email untuk pertanyaan seputar produk kami
       </h2>
+      <form action="https://formsubmit.co/akualita.akademi@gmail.com" method="POST" class="space-y-5">
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Email Kamu</label>
+    <input 
+      type="email" 
+      name="email"
+      placeholder="Masukkan email aktif kamu" 
+      class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
+      required
+    >
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Subjek Email</label>
+    <input 
+      type="text" 
+      name="subject" 
+      placeholder="Masukkan subjek email ini" 
+      class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
+      required
+    >
+  </div>
+  <div>
+    <label class="block text-sm font-medium text-gray-700 mb-1">Isi Pesan</label>
+    <textarea 
+      rows="5" 
+      name="message" 
+      placeholder="Masukkan pertanyaan kamu" 
+      class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
+      required
+    ></textarea>
+  </div>
+  <button 
+    type="submit" 
+    class="w-full bg-[#00ACF8] text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#0095d9] transition duration-200"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+    </svg>
+    Kirim Email
+  </button>
+</form>
 
-      <form action="#" method="POST" class="space-y-5">
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Email Kamu</label>
-          <input 
-            type="email" 
-            placeholder="Masukkan email aktif kamu" 
-            class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
-            required
-          >
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Subjek Email</label>
-          <input 
-            type="text" 
-            placeholder="Masukkan subjek email ini" 
-            class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
-            required
-          >
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Isi Pesan</label>
-          <textarea 
-            rows="5" 
-            placeholder="Masukkan pertanyaan kamu" 
-            class="w-full border border-gray-300 rounded-xl px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#00ACF8]" 
-            required
-          ></textarea>
-        </div>
-
-        <button 
-          type="submit" 
-          class="w-full bg-[#00ACF8] text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#0095d9] transition duration-200"
-        >
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-        </svg>
-          Kirim Email
-        </button>
-      </form>
     </div>
 
     <div class="space-y-4">

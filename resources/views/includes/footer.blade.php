@@ -66,8 +66,7 @@
         <li>0812-2566-9188 (General Info)</li>
       </ul>
       <p class="mt-2 text-gray-400">Email:</p>
-      <p class="text-blue-400 hover:underline">training@akualita.com</p>
-      <p class="text-blue-400 hover:underline">sertifikasi@akualita.com</p>
+      <p class="text-blue-400 hover:underline">akualita.akademi@gmail.com</p>
     </div>
 
   </div>
