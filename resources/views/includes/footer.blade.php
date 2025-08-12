@@ -63,8 +63,7 @@
       <h2 class="text-lg font-semibold text-white">Kontak</h2>
       <p class="mt-2 text-gray-400 mb-1">Nomor Kantor/HP:</p>
       <ul class="text-gray-400 space-y-2">
-        <li>0811-2850-0029</li>
-        <li>0812-2566-9188</li>
+        <li>0812-2566-9188 (General Info)</li>
       </ul>
       <p class="mt-2 text-gray-400">Email:</p>
       <p class="text-blue-400 hover:underline">training@akualita.com</p>
@@ -75,5 +74,5 @@
 </footer>
 
 <footer class="bg-[#222222] text-gray-400 text-center py-3 border-t border-gray-700">
-    <p class="text-xs md:text-sm font-semibold">Copyright &copy; 2025 Akindotama. All rights reserved</p>
+    <p class="text-xs md:text-sm font-semibold">Copyright &copy; 2025 Akualita Academy. All rights reserved</p>
 </footer>

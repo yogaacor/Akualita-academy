@@ -7,35 +7,29 @@
 <!-- Bagian 1 halaman utama -->
 <section class="w-full min-h-screen text-white pt-10 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgf.png') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
-    
-    <!-- Kiri: Teks -->
     <div class="space-y-4 ml-4 mt-6">
-      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
+      <h2 class="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
         <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
       </h2>
-      <p class="text-base md:text-lg lg:text-lg text-gray-800 max-w-xl">
+      <p class="text-lg md:text-xl text-gray-800 max-w-xl">
         Kami bantu kamu tingkatkan keterampilan, raih sertifikasi resmi, dan siap hadapi dunia kerja dengan lebih percaya diri!
       </p>
       <div class="mt-4">
-        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-xl">
           <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
           Coba Konsultasi
         </a>
       </div>
     </div>
-
-    <!-- Kanan: Gambar -->
     <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[4rem]">
       <img src="{{ asset('storage/Bg/bg-utama1.png') }}"
            alt="Akualita Academy Foto"
            class="w-[700px] h-[350px] object-cover object-right rounded-md" />
     </div>
-
   </div>
 </section>
-
 
 
 <!-- Bagian 2 halaman utama -->
@@ -46,16 +40,15 @@
     </h2>
     <br>
     <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] bg-white ">
-      <!-- Fitur 1 -->
       <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
-        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-4">
           <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
         </div>
         <h3 class="font-bold text-2xl mb-2">Pelatihan Sertifikasi</h3>
         <p class="text-gray-600 text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Tingkatkan kompetensi melalui pelatihan sertifikasi resmi dengan materi dari instruktur berpengalaman, siap menghadapi tantangan kerja.
         </p>
-        <div class="mt-4">
+        <div class="mt-6">
         <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
@@ -65,16 +58,15 @@
       </div>
       </div>
 
-      <!-- Fitur 2 -->
       <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
-        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-4">
           <img src="{{ asset('storage/svg/noncerti12.svg') }}" alt="Icon Buku" class="w-12 h-12">
         </div>
         <h3 class="font-bold text-2xl mb-2">Pelatihan Non-Sertifikasi</h3>
         <p class="text-gray-600 text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Pelatihan praktis untuk menambah pengetahuan dan keterampilan tanpa persyaratan ujian sertifikasi, fleksibel sesuai kebutuhan.
         </p>
-        <div class="mt-4">
+        <div class="mt-6">
         <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
@@ -84,16 +76,15 @@
       </div>
       </div>
 
-      <!-- Fitur 3 -->
       <div class="border-2 border-gray-200 p-6 rounded-xl transition duration-300 flex flex-col items-center text-center hover:bg-[#E6F8FE] hover:shadow-lg hover:-translate-y-1 hover:border-b-4 hover:border-[#00ACF8]">
-        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+        <div class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] w-16 h-16 rounded-xl flex items-center justify-center mb-4">
           <img src="{{ asset('storage/svg/boot12.svg') }}" alt="Icon Buku" class="w-8 h-8">
         </div>
         <h3 class="font-bold text-2xl mb-2">Bootcamp</h3>
         <p class="text-gray-600 text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Program intensif dengan pembelajaran terstruktur dan praktik langsung, dirancang untuk menguasai keterampilan dalam waktu singkat.
         </p>
-        <div class="mt-4">
+        <div class="mt-6">
         <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
@@ -102,7 +93,6 @@
         </a>
       </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -124,7 +114,6 @@
   </div>
 
   <div class="max-w-9xl mx-auto grid md:grid-cols-[0.5fr_0.8fr] gap-10 items-center">
-    <!-- Kiri -->
     <div id="card-container" class="space-y-4">
 
         <!-- Item 1 -->
@@ -204,30 +193,21 @@
             <p class="text-[#5E6574] leading-relaxed group-hover:text-white">Program dipandu oleh instruktur profesional yang memahami kebutuhan dunia kerja dan industri.</p>
           </div>
         </div>
-
     </div>
-
-    <!-- Gambar -->
     <div class="flex justify-start">
       <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%]">
     </div>
-
-
   </div>
 </section>
-
-
 
 
 
 <!-- Bagian 4 halaman utama - kontak -->
 <section class="bg-white py-20 px-6 md:px-16">
   <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
-
-    <!-- Formulir Pertanyaan -->
     <div>
       <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug text-[#1F2756]">
-        Sampaikan pertanyaan seputar produk Kami melalui Email
+        Hubungi kami melalui email untuk pertanyaan seputar produk kami
       </h2>
 
       <form action="#" method="POST" class="space-y-5">
@@ -266,13 +246,11 @@
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
         </svg>
-
           Kirim Email
         </button>
       </form>
     </div>
 
-    <!-- Maps dan Alamat -->
     <div class="space-y-4">
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.470496169294!2d110.4722692!3d-6.9964396999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ce1b39ada93%3A0x38813ea0bc529c6a!2sPT%20Adhikriya%20Kualita%20Utama%20(AKUALITA)!5e0!3m2!1sid!2sid!4v1720500000000!5m2!1sid!2sid" 
@@ -285,12 +263,12 @@
       ></iframe>
 
       <div>
-        <h3 class="text-xl font-bold text-[#1F2756] mb-2">Kantor Kami</h3>
-        <p class="text-base text-gray-700 leading-relaxed">
-          PT. Adhikriya Kualita Utama (AKUALITA)<br>
-          Jl. Kyai Abdul Manan No.25, Pedurungan Tengah,
-          Kec. Pedurungan, Kota Semarang,
-          Jawa Tengah 50192
+        <h3 class="text-xl font-bold text-[#1F2756] mb-1">Kantor Kami</h3>
+        <p class="text-base text-gray-700">
+          AKUALITA Academy Office <br>
+          CV Primera Purwina Gemilang :
+          Jl. Abdul Manan No.25 Semarang <br>
+          Phone : 0812-2566-9188 (General Info)
         </p>
       </div>
     </div>

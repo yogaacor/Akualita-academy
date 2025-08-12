@@ -12,8 +12,6 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <!-- Tambahkan ini di dalam <head> -->
 
-
-
 </head>
 
 <body>

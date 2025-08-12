@@ -31,7 +31,7 @@
               <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
             </div>
             <h4 class="font-semibold text-lg text-gray-900 mb-1">Pelatihan Sertifikasi</h4>
-            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-base text-gray-600">Tingkatkan kompetensi melalui pelatihan sertifikasi resmi dengan materi dari instruktur berpengalaman, siap menghadapi tantangan kerja.</p>
           </div>
         </div>
 
@@ -44,7 +44,7 @@
             <div class="flex items-center space-x-2 mb-1">
               <h4 class="font-semibold text-lg text-gray-900">Pelatihan Non-Sertifikasi</h4>
             </div>
-            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-base text-gray-600">Pelatihan praktis untuk menambah pengetahuan dan keterampilan tanpa persyaratan ujian sertifikasi, fleksibel sesuai kebutuhan.</p>
           </div>
         </div>
 
@@ -55,7 +55,7 @@
             <img src="{{ asset('storage/svg/boot12.svg') }}" alt="Icon Buku" class="w-8 h-8">
           </div>
             <h4 class="font-semibold text-lg text-gray-900 mb-1">Bootcamp</h4>
-            <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-base text-gray-600">Program intensif dengan pembelajaran terstruktur dan praktik langsung, dirancang untuk menguasai keterampilan dalam waktu singkat.</p>
           </div>
         </div>
       </div>
