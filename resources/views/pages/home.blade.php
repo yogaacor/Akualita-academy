@@ -5,38 +5,42 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white pt-10 pb-10 px-6 md:px-16" style="background-image: url('{{ asset('storage/Bg/bgf.png') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white  md:pt-0 pb-10 px-3 md:px-16" style="background-image: url('{{ asset('storage/Bg/ww.jpg') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     <div class="space-y-4 ml-4 mt-6">
-      <h2 class="text-4xl md:text-6xl lg:text-6xl font-bold leading-tight text-[#1F2756]">
+      <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-6xl font-bold text-[#1F2756]">
         Bangun <span class="text-[#1F2756]">karirmu</span>,<br>
         bersama <span class="text-[#1F2756]">kami</span><br>
-        <span class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
+        <span class="bg-[#00ACF8] text-[#FFFFFF] inline-block px-3 py-1 rounded mt-1">mulai sekarang</span>
       </h2>
-      <p class="text-lg md:text-xl text-gray-800 max-w-xl">
+      <p class="text-base sm:text-lg md:text-xl text-gray-900 max-w-xl">
         Kami bantu kamu tingkatkan keterampilan, raih sertifikasi resmi, dan siap hadapi dunia kerja dengan lebih percaya diri!
       </p>
+
       <div class="mt-4">
-        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-xl">
+        <a href="#" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-4 md:m py-3 md:py-3 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-base md:text-xl">
           <img src="https://img.icons8.com/ios-filled/20/ffffff/whatsapp.png" class="mr-2" alt="wa" />
           Coba Konsultasi
         </a>
       </div>
     </div>
-    <div class="relative w-full h-full flex justify-end items-start mt-[-2rem] md:mt-[4rem]">
+    <div class="relative w-full h-full flex justify-center md:justify-end items-start mt-[-2rem] md:mt-[4rem]">
       <img src="{{ asset('storage/Bg/bg-utama1.png') }}"
            alt="Akualita Academy Foto"
-           class="w-[700px] h-[350px] object-cover object-right rounded-md" />
+           class="w-full sm:w-[500px] md:w-[700px] h-auto object-cover object-right rounded-md" />
     </div>
   </div>
 </section>
 
 
 <!-- Bagian 2 halaman utama -->
-<section class="pt-6 pb-20 bg-white">
+<section class="pt-0 md:pt-6 pb-20 bg-white">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] leading-snug">
-      Pilih program terbaik untuk memulai perjalanan <br>belajarmu di Akualita Academy
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] leading-snug hidden md:block">
+      Pilih Program Terbaik untuk Memulai Perjalanan <br class="hidden md:block">Belajarmu di Akualita Academy
+    </h2>
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] block md:hidden">
+      Pilih Program Terbaik di Akualita Academy
     </h2>
     <br>
     <div class="grid md:grid-cols-3 gap-10 text-[#1F2756] bg-white ">
@@ -45,11 +49,11 @@
           <img src="{{ asset('storage/svg/certi12.svg') }}" alt="Icon Buku" class="w-10 h-10">
         </div>
         <h3 class="font-bold text-2xl mb-2">Pelatihan Sertifikasi</h3>
-        <p class="text-gray-600 text-lg leading-relaxed">
+        <p class="text-gray-600 md:text-lg text-lg leading-relaxed">
           Tingkatkan kompetensi melalui pelatihan sertifikasi resmi dengan materi dari instruktur berpengalaman, siap menghadapi tantangan kerja.
         </p>
         <div class="mt-6">
-        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-base md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
@@ -67,7 +71,7 @@
           Pelatihan praktis untuk menambah pengetahuan dan keterampilan tanpa persyaratan ujian sertifikasi, fleksibel sesuai kebutuhan.
         </p>
         <div class="mt-6">
-        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-base md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
@@ -85,7 +89,7 @@
           Program intensif dengan pembelajaran terstruktur dan praktik langsung, dirancang untuk menguasai keterampilan dalam waktu singkat.
         </p>
         <div class="mt-6">
-        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-sm md:text-lg">
+        <a href="" class="inline-flex items-center bg-[#00ACF8] text-white font-semibold px-3 py-2 rounded-lg shadow-md hover:bg-cyan-300 transition duration-300 text-base md:text-lg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
           </svg>
@@ -103,12 +107,12 @@
   <div class="flex items-center justify-center px-4">
     <h2 class="text-center max-w-4xl text-3xl md:text-4xl font-bold text-[#1F2756] mb-3">
       Berbagai Manfaat yang Akan Kamu Dapatkan Saat Mendaftar di 
-      <span class="bg-gradient-to-br from-[#05E089] to-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1">Akualita Academy</span>
+      <span class="bg-[#00ACF8] text-white inline-block px-3 py-1 rounded mt-1 text-2xl md:text-4xl">Akualita Academy</span>
     </h2>
   </div>
 
   <div class="flex items-center justify-center mb-6">
-    <p class="text-lg md:text-xl text-[#5E6574] mb-10">
+    <p class="text-lg md:text-xl text-[#5E6574] mb-10 hidden md:block">
       Bersama Akualita Academy, tingkatkan kompetensi, raih sertifikasi, dan siap hadapi dunia kerja!
     </p>
   </div>
@@ -195,18 +199,16 @@
         </div>
     </div>
     <div class="flex justify-start">
-      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%]">
+      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%] ">
     </div>
   </div>
 </section>
-
-
 
 <!-- Bagian 4 halaman utama - kontak -->
 <section class="bg-white py-20 px-6 md:px-16">
   <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
     <div>
-      <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-snug text-[#1F2756]">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6 text-[#1F2756]">
         Hubungi kami melalui email untuk pertanyaan seputar produk kami
       </h2>
       <form action="https://formsubmit.co/akualita.akademi@gmail.com" method="POST" class="space-y-5">
