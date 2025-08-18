@@ -26,7 +26,7 @@
     </div>
     <div class="relative w-full h-full flex justify-center md:justify-end items-start mt-[-2rem] md:mt-[4rem]">
       <img src="{{ asset('storage/Bg/bg-utama1.png') }}"
-           alt="Akualita Academy Foto"
+           alt="Galeri foto kegiatan pelatihan di Akualita Academy"
            class="w-full sm:w-[500px] md:w-[700px] h-auto object-cover object-right rounded-md" />
     </div>
   </div>
@@ -199,7 +199,7 @@
         </div>
     </div>
     <div class="flex justify-start">
-      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Bootcamp Benefits" class="rounded-xl shadow-md w-full md:w-[95%] ">
+      <img src="{{ asset('storage/bg/bggg2.png') }}" alt="Pelatihan Akualita Academy" class="rounded-xl shadow-md w-full md:w-[95%] ">
     </div>
   </div>
 </section>

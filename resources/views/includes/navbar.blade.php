@@ -1,7 +1,7 @@
 <nav class="sticky top-0 z-50 flex items-center justify-between px-6 md:px-20 py-4 bg-white shadow-sm transition duration-300">
   <!-- Logo -->
   <div class="flex items-center space-x-3">
-    <img src="{{ asset('storage/logo/logo2.png') }}" alt="Akualita Academy Logo" class="h-10 w-auto">
+    <img src="{{ asset('storage/logo/logo2.png') }}" alt="Logo Akualita Academy" class="h-10 w-auto">
   </div>
 
   <!-- Hamburger Menu Button -->

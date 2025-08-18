@@ -3,7 +3,7 @@
     <div class="col-span-0 md:col-span-4 flex flex-col items-start">
       <img 
         src="{{ asset('storage/logo/logo1.png') }}" 
-        alt="Logo Akindotama" 
+        alt="Logo Akualita Academy" 
         class="h-auto w-48 md:w-64 mb-8"
         loading="lazy">
       <p class="text-base text-gray-400 ml-0 md:ml-2">
