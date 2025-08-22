@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Bagian 1 halaman utama -->
-<section class="w-full min-h-screen text-white  md:pt-0 pb-10 px-3 md:px-16" style="background-image: url('{{ asset('storage/Bg/ww.jpg') }}'); background-size: cover; background-position: center;">
+<section class="w-full min-h-screen text-white md:pt-0 pb-10 px-3 md:px-16" style="background-image: url('{{ asset('storage/Bg/ww.jpg') }}'); background-size: cover; background-position: center;">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto w-full">
     <div class="space-y-4 ml-4 mt-6">
       <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-6xl font-bold text-[#1F2756]">
