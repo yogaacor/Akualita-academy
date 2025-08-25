@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="bg-gray-50 text-gray-900 font-sans antialiased">
+    <div class=" text-gray-900 font-sans antialiased">
         @include('includes.navbar')
         @yield('content')
         @include('includes.footer')
