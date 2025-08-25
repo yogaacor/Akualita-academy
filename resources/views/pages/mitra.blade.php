@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Bagian 1 Beranda Mitra -->
-<section class="w-full h-[400px] px-20 py-20 bg-gradient-to-br from-[#05E089] to-[#00ACF8] flex items-center justify-between">
+<section class="w-full h-[400px] px-20 bg-gradient-to-br from-[#05E089] to-[#00ACF8] flex items-center justify-between">
     <div class="grid grid-cols-2 max-w-full">
         <div class="flex flex-col justify-center ml-20">
             <h1 class="text-5xl font-bold text-white mb-3">Mitra Akualita Academy</h1>
@@ -16,8 +16,8 @@
                 <a href="#" class="bg-white text-[#05E089] px-4 py-3 rounded-3xl font-semibold">Daftar Disini</a>
             </div>
         </div>
-        <div class="flex justify-end mr-20 h-full">
-            <img src="{{ asset('storage/main/BA.png') }}" alt="Mitra Image" class="w-[300px] h-full object-cover">
+        <div class="flex justify-end mr-20">
+            <img src="{{ asset('storage/main/BA.png') }}" alt="Mitra Image" class="w-[300px] h-[400px] object-cover self-end">
         </div>
     </div>
 </section>
@@ -85,7 +85,7 @@
 <section class="px-10 mb-6">
     <div class="bg-gray-800 w-full h-auto rounded-xl flex items-center">
         <div class="ml-6 mt-4 mr-4">
-            <img src="{{ asset('storage/main/BA.png') }}" alt="Mitra Image" class="w-[100px]">
+            <img src="{{ asset('storage/main/BA3.png') }}" alt="Mitra Image" class="w-[100px]">
         </div>
         <div class=" text-white">
             <p class="text-2xl font-semibold">🚀 Mulai langkahmu sekarang bersama Akualita Academy Affiliate!</p>
@@ -102,8 +102,8 @@
 <!-- Bagian 4 Skema Komisi -->
 <section class="w-full h-[350px] bg-gray-800">
     <div class="grid grid-cols-2">
-        <div class="px-20 py-10">
-            <h1 class="text-white font-bold text-2xl mb-6">Skema Komisi</h1>
+        <div class="px-20 mt-10">
+            <h1 class="text-white font-bold text-3xl mb-6">Skema Komisi</h1>
             <div class="mb-4">
                 <div class="overflow-hidden rounded-lg border-2 border-white">
                     <table class="table-auto border-collapse w-full text-white text-center rounded-lg overflow-hidden shadow-lg">
@@ -135,11 +135,51 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="mr-6 w-[100px]">
-            <img src="{{ asset('storage/main/BA.png') }}" alt="">
-        </div> --}}
+        <div class="flex items-center justify-center">
+            <img src="{{ asset('storage/main/graf.png') }}" alt="" class="w-[270px] h-[350px] object-contain">
+        </div>
     </div>
 </section>
 
+<!-- Bagian 5 Cara Daftar -->
+<section class="w-full py-16 bg-gray-100">
+    <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold text-gray-800">3 Langkah Mudah Jadi Akualita Academy Affiliate</h1>
+    </div>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+        <!-- Kartu 1 -->
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-200 flex flex-col items-center text-center">
+            <div class="relative w-full">
+                <img src="" alt="Daftar" class="w-full h-44 sm:h-48 object-cover" loading="lazy">
+            </div>
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Daftar</h3>
+                <p class="text-gray-600 text-sm">Bergabung sebagai Affiliate Akualita Academy—gratis & cepat.</p>
+            </div>
+        </div>
+
+        <!-- Kartu 2 -->
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-200 flex flex-col items-center text-center">
+            <div class="relative w-full">
+                <img src="" alt="Bagikan Link" class="w-full h-44 sm:h-48 object-cover" loading="lazy">
+            </div>
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Bagikan Link</h3>
+                <p class="text-gray-600 text-sm">Sebarkan harga referral ke jaringanmu (individu/perusahaan) untuk program training & sertifikasi.</p>
+            </div>
+        </div>
+
+        <!-- Kartu 3 -->
+        <div class="bg-white rounded-xl overflow-hidden border border-gray-200 flex flex-col items-center text-center">
+            <div class="relative w-full">
+                <img src="" alt="Dapatkan Komisi" class="w-full h-44 sm:h-48 object-cover" loading="lazy">
+            </div>
+            <div class="px-6 py-4">
+                <h3 class="font-bold text-lg text-gray-900 mb-2">Dapatkan Komisi</h3>
+                <p class="text-gray-600 text-sm">Terima komisi untuk setiap pendaftaran dan pembayaran yang terjadi.</p>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
 
