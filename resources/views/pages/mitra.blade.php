@@ -64,7 +64,7 @@
 </section>
 
 <!-- Bagian 2 Benefit Mitra -->
-<section class="pt-0 md:pt-6 pb-20 bg-white mt-20">
+<section class="pt-0 md:pt-6 bg-white mt-20">
     <div class="max-w-7xl mx-auto px-6">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-[#1F2756] leading-snug hidden md:block">
             3 Langkah Mudah Menjadi Mitra Akualita Academy
@@ -102,36 +102,152 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center mt-10">
-        <div class="overflow-hidden rounded-xl border-2 border-gray-200 w-full max-w-4xl">
-            <table class="table-auto border-collapse w-full text-gray-700 text-center text-lg">
+</section>
+
+<div class=" gap-8 items-center py-20">
+  <!-- Title -->
+  <div class="flex flex-col justify-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-10 text-center">Skema Komisi Mitra Akualita Academy</h2>
+      <!-- Table -->
+        <div class="flex justify-center">
+            <div class="overflow-hidden rounded-xl shadow-lg border border-gray-200 w-full max-w-3xl">
+            <table class="table-auto w-full text-gray-700 text-center text-lg">
                 <thead>
-                    <tr>
-                        <th class="border px-6 py-4 bg-[#00ACF8] text-white text-xl">Total Penjualan</th>
-                        <th class="border px-6 py-4 bg-[#00ACF8] text-white text-xl">Komisi</th>
-                    </tr>
+                <tr class="bg-gradient-to-r from-[#00ACF8] to-[#05E089]">
+                    <th class="px-6 py-4 text-white text-xl font-semibold">Total Penjualan</th>
+                    <th class="px-6 py-4 text-white text-xl font-semibold">Komisi</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr class="bg-white">
-                        <td class="border px-6 py-4 text-center">≤ Rp 5.000.000</td>
-                        <td class="border px-6 py-4 text-center">5%</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                        <td class="border px-6 py-4 text-center">Rp 5.000.001 - Rp 25.000.000</td>
-                        <td class="border px-6 py-4 text-center">6%</td>
-                    </tr>
-                    <tr class="bg-white">
-                        <td class="border px-6 py-4 text-center">Rp 25.000.001 - Rp 100.000.000</td>
-                        <td class="border px-6 py-4 text-center">8%</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                        <td class="border px-6 py-4 text-center">> Rp 100.000.000</td>
-                        <td class="border px-6 py-4 text-center">10%</td>
-                    </tr>
+                <tr class="bg-white hover:bg-gray-50 transition">
+                    <td class="border px-6 py-4">≤ Rp 5.000.000</td>
+                    <td class="border px-6 py-4 font-semibold">5%</td>
+                </tr>
+                <tr class="bg-gray-50 hover:bg-gray-100 transition">
+                    <td class="border px-6 py-4">Rp 5.000.001 - Rp 25.000.000</td>
+                    <td class="border px-6 py-4 font-semibold">6%</td>
+                </tr>
+                <tr class="bg-white hover:bg-gray-50 transition">
+                    <td class="border px-6 py-4">Rp 25.000.001 - Rp 100.000.000</td>
+                    <td class="border px-6 py-4 font-semibold">8%</td>
+                </tr>
+                <tr class="bg-gray-50 hover:bg-gray-100 transition">
+                    <td class="border px-6 py-4">> Rp 100.000.000</td>
+                    <td class="border px-6 py-4 font-semibold ">10%</td>
+                </tr>
                 </tbody>
             </table>
+            </div>
+        </div>
+  </div>
+</div>
+
+<!-- Bagian 3 CTA Mitra -->
+<section class="w-full bg-gradient-to-br from-[#05E089] to-[#00ACF8]  flex items-center">
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_4fr] max-w-7xl mx-auto px-8 gap-8 items-center">
+        <!-- Gambar -->
+        <div class="flex justify-center pr-8">
+            <img src="{{ asset('storage/main/BA2.png') }}" alt="CTA Mitra" 
+                 class="h-full object-contain">
+        </div>
+        <!-- Konten Kanan -->
+        <div class="flex flex-col space-y-6 text-left md:text-left">
+            <h2 class="text-2xl md:text-3xl font-bold text-white leading-relaxed">
+                Mulai langkahmu sekarang bersama Akualita Academy Affiliate!
+            </h2>
+            <p class="text-white text-lg leading-relaxed mr-20">
+                Bergabunglah dengan Akualita Academy Affiliate dan jadilah bagian dari komunitas penuh peluang! 
+                Dapatkan penghasilan tambahan yang fleksibel dan berkelanjutan sambil berbagi informasi bermanfaat. 
+            </p>
+            <div>
+                <a href="#" class="bg-white text-[#05E089] font-semibold px-6 py-3 rounded-2xl shadow hover:bg-gray-100 transition">
+                    Daftar Sekarang!
+                </a>
+            </div>
         </div>
     </div>
 </section>
+
+<!-- Bagian 4 FAQ -->
+<section class="w-full bg-white py-16">
+    <div class="max-w-5xl mx-auto px-6">
+        <h1 class="text-gray-900 font-bold text-4xl text-center mb-3">Frequently Asked Questions (FAQ)</h1>
+        <p class="text-center text-gray-500 mb-10">Temukan jawaban dari pertanyaan yang paling sering diajukan mengenai Akualita Academy Affiliate.</p>
+
+        <div class="space-y-4">
+            <!-- Question 1 -->
+            <div x-data="{ open: false }" class="border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <button @click="open = !open" class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition">
+                    <span class="text-lg font-semibold text-gray-800">Apa itu Akualita Academy Affiliate?</span>
+                    <svg :class="{'rotate-180': open}" class="h-6 w-6 text-gray-600 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div x-show="open" x-collapse class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Program kemitraan referral untuk memasarkan program Akualita dan memperoleh komisi dari pendaftaran yang berhasil.
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div x-data="{ open: false }" class="border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <button @click="open = !open" class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition">
+                    <span class="text-lg font-semibold text-gray-800">Apa keuntungan untuk Affiliate?</span>
+                    <svg :class="{'rotate-180': open}" class="h-6 w-6 text-gray-600 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div x-show="open" x-collapse class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Komisi per pendaftaran, materi promosi, bimbingan tim Akualita, dan laporan transparan.
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div x-data="{ open: false }" class="border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <button @click="open = !open" class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition">
+                    <span class="text-lg font-semibold text-gray-800">Bagaimana cara mengetahui form referral?</span>
+                    <svg :class="{'rotate-180': open}" class="h-6 w-6 text-gray-600 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div x-show="open" x-collapse class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Tenang, form referral akan langsung kamu dapatkan dari Admin Akualita Academy setelah proses pendaftaran selesai.
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div x-data="{ open: false }" class="border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <button @click="open = !open" class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition">
+                    <span class="text-lg font-semibold text-gray-800">Bisakah saya memperbarui data (rekening/KTP/NPWP)?</span>
+                    <svg :class="{'rotate-180': open}" class="h-6 w-6 text-gray-600 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div x-show="open" x-collapse class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Bisa, melalui menghubungi tim affiliate support.
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div x-data="{ open: false }" class="border border-gray-200 rounded-xl shadow-sm overflow-hidden">
+                <button @click="open = !open" class="w-full text-left px-6 py-4 flex justify-between items-center hover:bg-gray-50 transition">
+                    <span class="text-lg font-semibold text-gray-800">Apakah ada potongan biaya atas komisi?</span>
+                    <svg :class="{'rotate-180': open}" class="h-6 w-6 text-gray-600 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+                <div x-show="open" x-collapse class="px-6 pb-6 text-gray-600 leading-relaxed">
+                    Mengikuti S&K termasuk ketentuan pajak/biaya transfer yang berlaku.
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="text-center text-gray-900">
+            <h2 class="text-xl font-semibold mb-2 mt-6">Tumbuh Bersama #AkualitaAffiliate.</h2>
+            <p class="">Daftarkan dirimu sekarang & mulai hasilkan komisi dari referral.</p>
+            <p class="">Butuh bantuan? Email affiliate@akualita-academy.com.</p>
+        </div>
+</section>
+
+
 @endsection
 
