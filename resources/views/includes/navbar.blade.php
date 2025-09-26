@@ -1,20 +1,17 @@
 <nav class="sticky top-0 z-50 flex items-center justify-between px-6 md:px-20 py-4 bg-white shadow-sm transition duration-300">
-  <!-- Logo -->
   <div class="flex items-center space-x-3">
     <img src="{{ asset('storage/logo/logo2.png') }}" alt="Logo Akualita Academy" class="h-10 w-auto">
   </div>
 
-  <!-- Hamburger Menu Button -->
+  <!-- Hamburger -->
   <button id="menu-toggle" class="block md:hidden focus:outline-none">
     <svg class="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   </button>
 
-  <!-- Menu Items -->
+  <!-- Menu -->
   <ul id="menu" class="hidden md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-12 text-sm text-gray-900 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-6 md:p-0 z-50">
-    
-    <!-- Program Desktop -->
     <li class="group relative cursor-pointer hidden md:block">
       <div class="relative group">
         <button class="flex items-center space-x-1 text-base hover:text-[#00ACF8] transition duration-300">
@@ -24,11 +21,9 @@
           </svg>
         </button>
       </div>
-
       <!-- Megamenu -->
       <div class="absolute left-1/2 top-full hidden group-hover:block -translate-x-1/2 w-[1000px] bg-white shadow-xl z-50 transition duration-600 rounded-xl ml-28">
         <div class="px-12 py-10 grid grid-cols-2 gap-10 text-gray-700 text-base">
-          
           <!-- Pelatihan Sertifikasi -->
           <div class="flex items-start space-x-3 hover:bg-[#E6F8FE] p-4 transition duration-300 rounded-xl">
             <div>
@@ -41,7 +36,6 @@
               </p>
             </div>
           </div>
-
           <!-- Pelatihan Non-Sertifikasi -->
           <div class="flex items-start space-x-3 hover:bg-[#E6F8FE] p-4 transition duration-300 rounded-xl">
             <div>
@@ -54,7 +48,6 @@
               </p>
             </div>
           </div>
-
           <!-- Bootcamp -->
           <div class="flex items-start space-x-3 hover:bg-[#E6F8FE] p-4 transition duration-300 rounded-xl">
             <div>
@@ -67,12 +60,11 @@
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </li>
 
-    <!-- Program Mobile -->
+    <!-- Mobile -->
     <button type="button" onclick="toggleMobileDropdown()" class="cursor-pointer flex items-center w-full hover:text-[#0c9df0] focus:outline-none text-base block md:hidden">
       Program
       <svg class="w-4 h-4 transition-transform duration-300 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -84,8 +76,6 @@
       <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300"><span class="text-base">Pelatihan Non-Sertifikasi</span></li>
       <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300"><span class="text-base">Bootcamp</span></li>
     </ul>
-
-    <!-- Other Menu Items -->
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300"><span class="text-base">Tentang Akualita Academy</span></li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300"><span class="text-base">Industri</span></li>
     <li class="cursor-pointer hover:text-[#00ACF8] transition duration-300"><span class="text-base">Komunitas</span></li>
@@ -98,12 +88,11 @@
 </nav>
 
 <script>
-  // Toggle main menu
   document.getElementById('menu-toggle').addEventListener('click', function () {
     document.getElementById('menu').classList.toggle('hidden');
   });
 
-  // Toggle mobile dropdown
+  // mobile dropdown
   function toggleMobileDropdown() {
     document.getElementById('mobile-riksa-dropdown').classList.toggle('hidden');
   }

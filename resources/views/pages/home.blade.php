@@ -116,11 +116,9 @@
       Bersama Akualita Academy, tingkatkan kompetensi, raih sertifikasi, dan siap hadapi dunia kerja!
     </p>
   </div>
-
   <div class="max-w-9xl mx-auto grid md:grid-cols-[0.5fr_0.8fr] gap-10 items-center">
     <div id="card-container" class="space-y-4">
-
-        <!-- Item 1 -->
+        <!-- 1 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:border-white hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -133,7 +131,7 @@
           </div>
         </div>
 
-        <!-- Item 2 -->
+        <!-- 2 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -146,7 +144,7 @@
           </div>
         </div>
 
-        <!-- Item 3 -->
+        <!-- 3 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -159,7 +157,7 @@
           </div>
         </div>
 
-        <!-- Item 4 -->
+        <!-- 4 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -172,7 +170,7 @@
           </div>
         </div>
 
-        <!-- Item 5 -->
+        <!-- 5 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -185,7 +183,7 @@
           </div>
         </div>
 
-        <!-- Item 6 -->
+        <!-- 6 -->
         <div class="flex items-start gap-4 border border-gray-300 p-3 rounded-xl transition-all duration-300 group hover:bg-[#00ACF8] hover:shadow-md max-w-xl">
           <div class="text-[#00ACF8] text-3xl group-hover:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
